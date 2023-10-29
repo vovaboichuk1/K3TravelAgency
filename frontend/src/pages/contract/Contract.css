@@ -1,0 +1,29 @@
+.contract_page {
+  font-family: Arial, sans-serif;
+  height: calc(100vh - 100px);
+  padding: 60px 60px 0px 60px;
+}
+
+.txt_contract {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+p.contract {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
