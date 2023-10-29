@@ -49,16 +49,17 @@
 .nav_acc{
     width: 50px;
     height: 50px;
-    border-left: 2px solid #ffcb74;
     cursor: pointer;
 }
 .singin{
     display: flex;
     align-items: center;
+    border-left: 2px solid #ffcb74;
+    padding-left: 20px;
 }
 
 .singin .nav_item {
-    padding-right: 2rem;
+    padding-right: 1.5rem;
 }
 
 .activePage {
