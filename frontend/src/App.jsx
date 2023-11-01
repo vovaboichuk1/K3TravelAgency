@@ -7,10 +7,11 @@ import Main from './pages/main/Main'
 import Calendar from './pages/calendar/Calendar'
 import Contract from './pages/contract/Contract'
 import Contacts from './pages/contacts/Contacts'
-import SingUp from './pages/singup/SingUp'
+import CustomerCab from './pages/customerCab/CustomerCab'
 import SingIn from './pages/singin/SingIn'
 
 import './App.css'
+
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
           <Route  path='/calendar' element={<Calendar />}/>
           <Route  path='/contract' element={<Contract />}/>
           <Route  path='/contacts' element={<Contacts />}/>
-          <Route  path='/singup' element={<SingUp />}/>
+          <Route  path='/customerCab' element={<CustomerCab />}/>
           <Route  path='/singin' element={<SingIn />}/>
         </Routes>
       </div>

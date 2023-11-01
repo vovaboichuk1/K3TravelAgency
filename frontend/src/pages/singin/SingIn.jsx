@@ -15,19 +15,19 @@ const SingIn = () => {
         <div className="form-container sign-up-container">
           <form action="#">
             <h1>Створити акаунт</h1>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <button>Sign Up</button>
+            <input className='form_input' type="text" placeholder="Name" />
+            <input className='form_input' type="email" placeholder="Email" />
+            <input className='form_input' type="password" placeholder="Password" />
+            <button className='form_btn'>Sign Up</button>
           </form>
         </div>
         <div className="main_login">
             <div className="form-container sign-in-container">
                 <form action="#">
                     <h1>Увійти</h1>
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
-                    <button>Sign In</button>
+                    <input className='form_input' type="email" placeholder="Email" />
+                    <input className='form_input' type="password" placeholder="Password" />
+                    <button className='form_btn'>Sign In</button>
                 </form>
             </div>
 
@@ -37,12 +37,12 @@ const SingIn = () => {
                         <h1>З поверненням!</h1>
                         <p>Щоб залишатися на зв'язку з нами, увійдіть,
                             <br/> використовуючи свої дані</p>
-                        <button onClick={handleGhostButtonClick} className="ghost">Sign In</button>
+                        <button className='form_btn ghost' onClick={handleGhostButtonClick}>Sign In</button>
                     </div>
                     <div className="overlay-panel overlay-right">
                         <h1>Привіт друже!</h1>
                         <p>Введіть свої дані та продовжуйте подорож з нами</p>
-                        <button onClick={handleGhostButtonClick} className="ghost">Sign Up</button>
+                        <button className='form_btn ghost' onClick={handleGhostButtonClick}>Sign Up</button>
                     </div>
                 </div>
             </div>

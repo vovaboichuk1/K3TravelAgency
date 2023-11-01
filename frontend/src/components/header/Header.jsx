@@ -37,12 +37,14 @@ const Header = () => {
 
                 <div className="singin">
                     
-                    <Link to="singin">
+                    <Link to="singin" onClick={() => setActivePage(6)}>
                         <li className="nav_item">
-                            <p className='nav_link' href="">Увійти</p>
+                            <p className={activePage === 6 ? 'activePage' : 'nav_link'} href="">Увійти</p>
                         </li>
                     </Link>
-                    <img className='nav_acc' src="../account_logo.png" alt="" />
+                    <Link to="customerCab" onClick={() => setActivePage(-1)}>
+                      <img className='nav_acc' src="../account_logo.png" alt="" />
+                    </Link>
                 </div>
 
 

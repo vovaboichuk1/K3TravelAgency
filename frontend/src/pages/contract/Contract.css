@@ -9,13 +9,13 @@
   padding: 20px;
 }
 
-h1 {
+.contract_title {
   font-size: 28px;
   color: #333;
   text-align: center;
 }
 
-h3 {
+.contract_subtitle {
   text-align: center;
   font-size: 24px;
   color: #666;
