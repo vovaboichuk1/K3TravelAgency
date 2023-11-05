@@ -11,6 +11,7 @@ import CustomerCab from './pages/customerCab/CustomerCab'
 import SingIn from './pages/singin/SingIn'
 
 import './App.css'
+import TravelDescription from './pages/travelDes/TravelDescription';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route  path='/contacts' element={<Contacts />}/>
           <Route  path='/customerCab' element={<CustomerCab />}/>
           <Route  path='/singin' element={<SingIn />}/>
+          <Route  path='/travel' element={<TravelDescription />}/>
         </Routes>
       </div>
       <Footer />

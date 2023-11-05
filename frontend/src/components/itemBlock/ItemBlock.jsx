@@ -1,8 +1,10 @@
 import React from 'react'
 import './ItemBlock.css'
+import { Link } from 'react-router-dom'
 
  const ItemBlock = () => {
   return (
+    
     <div className="item_block">
       {/* <div className='item_photo' src="../public/Rectangle 4.png" alt="" /> */}
       <div className="item_info">
@@ -18,10 +20,12 @@ import './ItemBlock.css'
           <p className='info_dates'>1-6 жовтня</p>
           <p className='info_seats'>Залишилось 1 місце</p>
         </div>
-
-        <a href="#" className="item_btn">Деталі</a>
+        <Link to='/travel'>
+          <button className="item_btn">Деталі</button>
+        </Link>
       </div>         
     </div>
+   
   )
 }
 export default ItemBlock;
